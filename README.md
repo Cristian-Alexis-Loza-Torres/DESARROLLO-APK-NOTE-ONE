@@ -1,57 +1,20 @@
-# NOTE-ONE
-This is simple notes app that follows MVVM architectural design pattern and uses android jetpack components.
+NotaOne
 
-## MVVM Architecture
+Fecha: 30/04/2024 Autor: Loza Torres Cristian Alexis
 
-__MVVM__ - MVVM stands for Model, View, ViewModel. MVVM is one of the architectural patterns which enhances separation of concerns, it allows separating the user interface logic from the business (or the back-end) logic. Its target is to achieve the following principle “Keeping UI code simple and free of app logic in order to make it easier to manage”.          
+I. Descripción de la Aplicación Móvil La aplicación NoteOne es una solución innovadora para la gestión de notas y tareas en dispositivos móviles. Con una interfaz amigable y fácil de usar, NotaOne permite a los usuarios crear, editar y organizar sus notas y tareas de manera eficiente, mejorando significativamente su productividad y organización. Características Principales
 
+Actualización Dinámica de Notas: Modifica y actualiza el contenido de tus notas en cualquier momento para mantener la información relevante y al día.
+Eliminación Rápida con Deslizamiento: Utiliza la función de deslizar para eliminar notas con facilidad, mejorando la eficiencia y la fluidez en la gestión de tu contenido.
+Búsqueda Eficiente: Localiza rápidamente notas específicas mediante una herramienta de búsqueda avanzada que permite filtrar por palabras clave y etiquetas, facilitando el acceso a la información deseada.
+Personalización con Selector de Color: Asigna colores personalizados a tus notas para una organización visualmente atractiva y eficiente, facilitando la categorización y diferenciación de notas importantes.
+Integración con Cámara y Galería: Permite a los usuarios adjuntar fotos e imágenes a sus notas utilizando la cámara del dispositivo o seleccionando fotos de la galería. Esta funcionalidad enriquece las notas con contenido visual, facilitando la documentación de ideas y tareas con imágenes relevantes.
+Descripción Detallada de los Módulos
 
-![mvvm_architecture](https://user-images.githubusercontent.com/60071765/94697016-50584e00-0355-11eb-924e-4ea28814b94e.png)
-
-
-## Android Jetpack components:-
-1. __Navigation Components__ - Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer. The Navigation component also ensures a consistent and predictable user experience by adhering to an established set of principles.
-
-2. __Android Room Persistence__ - It is a SQLite object mapping library. Use it to Avoid boilerplate code and easily convert SQLite table data to Java objects. Room provides compile time checks of SQLite statements and can return RxJava, Flowable and LiveData observables.
-
-3. __Kotlin Coroutines__ - A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. On Android, coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive.
-
-4. __ViewModel__ - It manages UI-related data in a lifecycle-conscious way. It stores UI-related data that isn't destroyed on app rotations.
-
-5. __LiveData__ - It notifies views of any database changes. Use LiveData to build data objects that notify views when the underlying database changes.
-
-6. __Kotlin__ - Kotlin is a modern statically typed programming language used by over 60% of professional Android developers that helps boost productivity, developer satisfaction, and code safety.
-
-          It also uses RecyclerView with DiffUtill to improves overall app performances
-
-## Features:-
-1. Save Note In a Local db
-2. Update
-3. Swipe To Delete
-4. Search
-5. Color Picker (Colorful notes)
-5. RecyclerView Animations
-
-## App ScreenShots:-
-
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/60071765/94704102-302c8d00-035d-11eb-9035-e04487341b14.gif)
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/60071765/94704994-28211d00-035e-11eb-859a-7ed354b1e2be.gif)
-
-
-
-
-![screenshot_20200930-192853_not](https://user-images.githubusercontent.com/60071765/94698129-9feb4980-0356-11eb-836b-859bfc29bd01.png)
-![screenshot_20200930-192914_not](https://user-images.githubusercontent.com/60071765/94698702-33bd1580-0357-11eb-873e-df51a27ff3e7.png)
-
-## Libraries Used:-
-   <h4>Library used</h4>
-<ul>
-<li><a href="https://developer.android.com/topic/libraries/architecture/room" target="_blank">Room</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel" target="_blank">Viewmodel</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/livedata">Livedata</a></li>
-<li><a href="https://developer.android.com/kotlin/coroutines" target="_blank">Coroutines</a></li>
-<li><a href="https://material.io/develop/android/docs/getting-started/" target="_blank">Material library</a></li>
-<li><a href="https://developer.android.com/guide/navigation/navigation-getting-started" target="_blank">Navigation Component</a></li>
-   
-</ul>
-
+Módulo	Descripción Detallada
+Creación de Tareas	Permite a los usuarios crear tareas completas con títulos, fechas de vencimiento, prioridades y etiquetas. Ideal para organizar y gestionar actividades.
+Visualización por Categorías	Organiza y muestra las tareas en diferentes categorías como trabajo, hogar, y estudios, facilitando la gestión y visualización de las actividades.
+Edición y Eliminación	Ofrece opciones para modificar la información de tareas existentes y eliminar aquellas que ya no son necesarias, proporcionando flexibilidad en la gestión.
+Recordatorios	Configura recordatorios para recibir notificaciones sobre tareas y fechas importantes, ayudando a mantener el seguimiento de los plazos y compromisos.
+Búsqueda Avanzada	Proporciona una función de búsqueda avanzada para encontrar tareas y notas utilizando palabras clave, etiquetas, agilizando el acceso a la información.
+Cámara y Galería	Permite a los usuarios adjuntar fotos e imágenes a sus notas utilizando la cámara del dispositivo o seleccionando fotos de la galería. Esta funcionalidad enriquece las notas con contenido visual, facilitando la documentación de ideas y tareas con imágenes relevantes.
